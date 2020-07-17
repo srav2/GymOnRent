@@ -1,0 +1,36 @@
+  <div id="id01" class="modal">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Tab"><i><b>&times;</b></i></span>
+
+</div>
+        <div class="container">
+  <label for="name" style="margin-left:750px"><b>User Name</b></label>
+  <input type="username" placeholder="Enter Username" name="psw" style="margin-left:90px" required>
+  <label for="psw" style="margin-left:750px"><b>Password</b></label>
+  <input type="password" placeholder="Enter Password" name="psw" style="margin-left:100px" required>
+  <span class="psw" style="margin-left:920px"> <a class="nav-link " routerLinkActive="acive" routerLink="/forgot" style="margin-left:920px">Forgot password?</a></span>
+<!-- (click)="onTouch()" -->
+    <button type="submit" class="signinbtn" style='margin-left:920px'> <a class="nav-link " routerLinkActive="acive" routerLink="/home">Sign In</a></button><br><br>
+    <label style="margin-left:920px">
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+    <span class="psw" style="margin-left:920px"><a class="nav-link " routerLinkActive="acive" routerLink="/signup" style="margin-left:920px">Create account</a></span>
+
+<!--       <button type="button" onclick="document.getElementById('id01').style.display='none'" class="canbtn" style='margin-left:920px' (click)="onSign()">SignUp</button> -->
+  <!--   <button type="button" onclick="document.getElementById('id01').style.display='none'" class="canbtn" style='margin-left:900px' (click)="onCan()">Cancel</button> -->
+</div>
+<div class="signup">
+  <label for="name" style="margin-left:750px"><b>User Name</b></label>
+  <input type="username" placeholder="Enter Username" name="psw" style="margin-left:90px" required>
+  <label for="name" style="margin-left:750px"><b>Name</b></label>
+  <input type="username" placeholder="Enter name" name="psw" style="margin-left:122px" required>
+  <label for="psw" style="margin-left:750px"><b>Password</b></label>
+  <input type="password" placeholder="Enter password" name="psw" style="margin-left:98px" required>
+  <label for="psw" style="margin-left:750px"><b>Retype password</b></label>
+  <input type="password" placeholder="Enter password" name="psw" style="margin-left:52px" required>
+  <label for="name" style="margin-left:750px"><b>Email ID</b></label>
+  <input type="username" placeholder="Enter email" name="psw" style="margin-left:108px" required>
+
+      <button type="submit" class="signinbtn" style='margin-left:920px'> <a class="nav-link " routerLinkActive="acive" routerLink="/home">Sign un</a></button><br><br>
+
+</div>
+<p style='margin-left:1140px'>{{msg}}</p>
